@@ -7,7 +7,7 @@
       <!-- breadcrumb -->
       <ol class="flex flex-wrap pt-1 bg-transparent rounded-lg">
         <li class="{{ (Request::is('rtl') ? 'pl-2' : '') }} leading-normal text-size-sm">
-          <a class="opacity-50 text-slate-700" href="javascript:;">Pages</a>
+          <a class="opacity-50 text-green-700" href="javascript::void();">Pages</a>
         </li>
         <li
           class="text-size-sm pl-2 capitalize leading-normal text-slate-700 {{ (Request::is('rtl') ? 'before:float-right before:pl-2' : 'before:float-left before:pr-2') }} before:text-gray-600 before:content-['/']"

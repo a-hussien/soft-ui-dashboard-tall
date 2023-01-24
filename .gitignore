@@ -7,9 +7,13 @@
 .env
 .env.backup
 .phpunit.result.cache
+.sysleci.yml
+CHANGELOG.md
+deploy.sh
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+/.github/*

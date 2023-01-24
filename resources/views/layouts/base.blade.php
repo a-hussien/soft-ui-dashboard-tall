@@ -31,25 +31,23 @@
         <meta property="og:site_name" content="Creative Tim" />
     @endif
 
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets') }}/img/apple-icon.png" />
-    <link rel="icon" type="image/png" href="{{ asset('assets') }}/img/favicon.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}" />
     <title>Soft UI Dashboard TALL by Creative Tim & UPDIVISION</title>
     <!-- Fonts and icons -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
     <!-- Nucleo Icons -->
-    <link href="{{ asset('assets') }}/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="{{ asset('assets') }}/css/nucleo-svg.css" rel="stylesheet" />
+    <link href="{{ asset('assets/css/nucleo-icons.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
 
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <!-- Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js"></script>
-    <!-- AlpineJS -->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.3/cdn.min.js"></script>
 
+    @vite('resources/js/app.js')
     <!-- Main Styling -->
-    <link href="{{ asset('assets') }}/css/styles.css?v=1.0.3" rel="stylesheet" />
-
+    <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet" />
     @livewireStyles
 
 </head>
